@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="margin-top:100px">
+    <div class="row">
+        <p class="col s1 m2"></p>
+        <div class="col s10 m8">
+            <div class="card row center-align">
+                <div class="card-content">
+                    <span class="card-title">Cheque Amount</span>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">attach_money</i>
+                            <input id="txt_chequeAmountNumber" type="text" class="validate allownumericwithdecimal">
+                            <label for="txt_chequeAmountNumber">Cheque Amount</label>
+                            <span class="helper-text" id="txt_errorList" style="display:none">
+                                <p>
+                                <p class="error left-align">The input value should not have more than 27 digits</p>
+                                <p class="error left-align">The input should not include any letter or sign</p>
+                                <p class="error left-align">The input should not be null</p>
+                                <p class="error left-align">Please input a decimal number, e.g. 23565.65</p>
+                                </p>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div id="txt_errorList" class="row col s12" style="display:none">
+                        <p class="error left-align">The input value should not have more than 27 digits</p>
+                        <p class="error left-align">The input should not include any letter or sign</p>
+                        <p class="error left-align">The input should not be null</p>
+                        <p class="error left-align">Please input a decimal number, e.g. 23565.65</p>
+                    </div>
+                    <div class="row" style="margin-left:6px">
+                        @*<div class="input-field col s12 m6">
+                            <select id="slct_textFormat">
+                                <option value="lowerCase"> lowercase </option>
+                                <option value="uperCase"> UPPERCASE </option>
+                                <option value="titleCase" selected=""> Title Case </option>
+                            </select>
+                            <label>Select Text Fromat</label>
+                        </div>*@
+                        <p class="col m2">
+
+                        </p>
+
+                        <a style="margin-top:10px" id="btn_convert" class="btn-large waves-effect waves-light btn purple darken-3 col s12 m4 l4 xl3"><i class="material-icons right">send</i>Convert</a>
+
+                    </div>
+
+                </div>
+                <div class="card-action" id="card_result">
+                    <dive class="row col s12">
+                        <p class="left-align">The inputed amount in words is:</p>
+                    </dive>
+                    <div class="row col s12">
+                        <p class="left-align" style="margin:0" id="txt_result">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="col s1 m2"></p>
+    </div>
+</div>
+
