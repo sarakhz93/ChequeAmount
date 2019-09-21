@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj": {}
+    "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj": {
+    "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj",
+        "projectUniqueName": "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj",
         "projectName": "ChequeAmountTest",
-        "projectPath": "C:\\Projects\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj",
-        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ChequeAmount\\ChequeAmountTest\\obj\\",
+        "projectPath": "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmountTest\\ChequeAmountTest.csproj",
+        "packagesPath": "C:\\Users\\FAFA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmountTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FAFA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Projects\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj": {
-                "projectPath": "C:\\Projects\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj"
+              "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj": {
+                "projectPath": "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj"
               }
             }
           }
@@ -54,6 +54,7 @@
               "version": "[15.9.0, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -83,20 +84,20 @@
         }
       }
     },
-    "C:\\Projects\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj": {
+    "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj",
+        "projectUniqueName": "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj",
         "projectName": "ChequeAmount",
-        "projectPath": "C:\\Projects\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj",
-        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ChequeAmount\\ChequeAmount\\obj\\",
+        "projectPath": "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmount\\ChequeAmount.csproj",
+        "packagesPath": "C:\\Users\\FAFA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FAFA\\Desktop\\Desktop\\MyRepo\\ChequeAmount\\ChequeAmount\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FAFA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,6 +133,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
